@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<stdint.h>
 uint32_t reverse(usint32_t n){
   uint32_t res = 0;
   for(int i=0;i<32;i++){
